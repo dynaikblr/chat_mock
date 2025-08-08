@@ -1,0 +1,11 @@
+{
+  "name": "chat-mock-futuristic",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "cd server && node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
